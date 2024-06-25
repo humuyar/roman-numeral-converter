@@ -3,7 +3,7 @@ const convertButton = document.getElementById('convert-btn');
 const output = document.getElementById('output');
 
 const convertToRoman = num => {
- const ref = [
+  const ref = [
     ['M', 1000],
     ['CM', 900],
     ['D', 500],
@@ -70,10 +70,10 @@ const updateUI = () => {
 };
 
 form.addEventListener('submit', e => {
-    e.preventDefault();
-    updateUI();
-  });
+  e.preventDefault();
+  updateUI();
+});
   
-  convertButton.addEventListener('click', () => {
-    updateUI();
-  });
+convertButton.addEventListener('click', () => {
+  updateUI();
+});
