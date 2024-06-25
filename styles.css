@@ -55,7 +55,6 @@ input:focus-visible {
   outline: 3px solid var(--blue-50);
 }
 
-/*
 button {
   cursor: pointer;
   margin-top: 15px;
@@ -81,6 +80,7 @@ button {
   text-align: center;
 }
 
+/*
 .alert {
   font-size: 2rem;
   background-color: var(--danger-background);
