@@ -2,7 +2,7 @@ const form = document.getElementById('form');
 const convertButton = document.getElementById('convert-btn');
 const output = document.getElementById('output');
 
-const convertToRoman = num => {
+const convertToRoman = (num) => {
   const ref = [
     ['M', 1000],
     ['CM', 900],
