@@ -80,7 +80,6 @@ input:focus-visible {
   text-align: center;
 }
 
-/*
 .alert {
   font-size: 2rem;
   background-color: var(--danger-background);
@@ -108,4 +107,4 @@ body {
   --error: #a94442;
   --danger-color: #850000;
   --danger-background: #ffadad;
-} */
+}
