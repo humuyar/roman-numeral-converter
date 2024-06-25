@@ -37,7 +37,8 @@ label {
   font-weight: bold;
 }
 
-input:focus-visible,button:focus-visible {
+button:focus-visible,
+input:focus-visible {
   outline: 3px solid var(--blue-50);
 }
 
@@ -53,7 +54,6 @@ input {
   background-color: var(--gray-90);
   border: 1px solid var(--gray-05);
 }
-
 /*button {
   cursor: pointer;
   margin-top: 15px;
