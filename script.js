@@ -69,11 +69,11 @@ const updateUI = () => {
   }
 };
 
-form.addEventListener('submit', e => {
+form.addEventListener('submit', (e) => {
   e.preventDefault();
   updateUI();
 });
-  
+
 convertButton.addEventListener('click', () => {
   updateUI();
 });
