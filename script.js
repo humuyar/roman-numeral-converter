@@ -20,12 +20,12 @@ const convertToRoman = (num) => {
   ];
   const res = [];
 
-  ref.forEach(function h(arr) {
-    while (num >= arr[1]) {
-      res.push(arr[0]);
-      num -= arr[1];
-    }
-  });
+ref.forEach(function (arr) {
+  while (num >= arr[1]) {
+    res.push(arr[0]);
+    num -= arr[1];
+}
+});
 
   return res.join('');
 };
