@@ -54,8 +54,8 @@ button {
   cursor: pointer;
   margin-top: 15px;
   text-decoration: none;
-  background-image: linear-gradient(#fecc4c, #ffac33);
-  border: 3px solid #feac32;
+  background-image: linear-gradient(#0a3670, #5c1134);
+  border: 3px solid #e1c9c9;
   padding: 10px 16px;
   font-size: 23px;
   width: 100%;
@@ -67,7 +67,7 @@ input:focus-visible {
 }
 
 .output {
-  color: white;
+  color: rgb(12, 11, 11);
   background-color: var(--gray-75);
   border: 3px solid var(--gray-05);
   font-size: 2.5rem;
@@ -92,18 +92,20 @@ body {
   padding: 50px 20px;
   font-family: 'Lato', Helvetica, Arial, sans-serif;
   font-size: 18px;
-  background-color: var(--gray-85);
+  background-image: url(assecc/images.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   color: var(--gray-05);
 }
 
 :root {
-  --gray-00: #fff;
-  --gray-05: #f5f6f7;
-  --gray-15: #d0d0d5;
-  --gray-75: #3b3b4f;
-  --gray-85: #1b1b32;
-  --gray-90: #0a0a23;
-  --blue-50: #198eee;
+  --gray-00: #e8dfdf;
+  --gray-05: #f3efef;
+  --gray-15: #4040c2;
+  --gray-75: #5c1134;
+  --gray-85: #0a3670;
+  --gray-90: #0a3670;
+  --blue-50: #032643;
   --error: #a94442;
   --danger-color: #850000;
   --danger-background: #ffadad;
